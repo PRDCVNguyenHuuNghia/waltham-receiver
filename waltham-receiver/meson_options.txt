@@ -1,0 +1,7 @@
+option(
+        'buffer-type',
+        type: 'combo',
+        choices: [ 'auto', 'egl', 'shm' ],
+        value: 'shm',
+        description: 'Default buffer type to use'
+)
